@@ -1,0 +1,96 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #004d99;
+    color: white;
+}
+
+/* Section styling */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+    color: #004d99;
+}
+
+/* Profile image */
+.profile-img {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Decorative image */
+.decorative-img {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+}
+
+/* Links */
+a {
+    color: #004d99;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #004d99;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #003366;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004d99;
+    color: white;
+    margin-top: 20px;
+}
